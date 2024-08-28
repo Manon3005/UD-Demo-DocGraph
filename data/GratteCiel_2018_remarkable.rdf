@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:core="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Ontologies/CityGML/3.0/core#"
+   xmlns:doc="https://dataset-dl.liris.cnrs.fr/rdf-owl-urban-data-ontologies/Ontologies/Document/3.0/document#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:time="http://www.w3.org/2006/time#"
+>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#reference_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://dataset-dl.liris.cnrs.fr/rdf-owl-urban-data-ontologies/Ontologies/Document/3.0/document#Reference"/>
+    <doc:Reference.coveragePeriod rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#interval_1"/>
+    <doc:Reference.referringTo rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#69266BO56_3"/>
+    <doc:Reference.referringTo rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#69266BO56_2"/>
+    <doc:Reference.referringTo rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#69266BO56_1"/>
+    <doc:Reference.referringTo rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#69266BO56_0"/>
+    <doc:Reference.referringDate rdf:datatype="http://www.w3.org/2001/XMLSchema#Datetime">11 March 2020, 15:47:26</doc:Reference.referringDate>
+    <doc:Reference.purposeType>Aerial View</doc:Reference.purposeType>
+    <doc:Reference.referenceText>Vue aérienne de la cité des Gratte-Ciel en 1936</doc:Reference.referenceText>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#interval_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    <time:hasBeginning rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#instant_1"/>
+    <time:hasEnd rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#instant_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#document_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://dataset-dl.liris.cnrs.fr/rdf-owl-urban-data-ontologies/Ontologies/Document/3.0/document#Document"/>
+    <doc:Document.tag xml:lang="en">Gratte ciel aerial view</doc:Document.tag>
+    <doc:Document.tag xml:lang="fr">Vue aérienne de Gratte ciel</doc:Document.tag>
+    <doc:Document.referringTo rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#reference_1"/>
+    <doc:Document.uri rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://upload.wikimedia.org/wikipedia/commons/a/a8/Vue_a%C3%A9rienne_de_la_cit%C3%A9_des_Gratte-Ciel_en_1936.jpg</doc:Document.uri>
+    <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://commons.wikimedia.org/w/index.php?title=File:Vue_a%C3%A9rienne_de_la_cit%C3%A9_des_Gratte-Ciel_en_1936.jpg&amp;oldid=477031065</rdfs:seeAlso>
+    <doc:Document.title>Vue aérienne de la cité des Gratte-Ciel en 1936</doc:Document.title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#69266BO56_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Ontologies/CityGML/3.0/building#Building"/>
+    <skos:prefLabel>BU_69266BO56_1</skos:prefLabel>
+    <core:AbstractSpace.boundary rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#RoofSurface_166"/>
+    <core:AbstractSpace.boundary rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#WallSurface_166"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#instant_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    <time:inXSDgYearMonth>01-1936</time:inXSDgYearMonth>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#p69266BO56_2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Ontologies/CityGML/3.0/building#Building"/>
+    <skos:prefLabel>BU_69266BO56_2</skos:prefLabel>
+    <core:AbstractSpace.boundary rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#RoofSurface_167"/>
+    <core:AbstractSpace.boundary rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#WallSurface_167"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#69266BO56_3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Ontologies/CityGML/3.0/building#Building"/>
+    <skos:prefLabel>BU_69266BO56_3</skos:prefLabel>
+    <core:AbstractSpace.boundary rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#RoofSurface_168"/>
+    <core:AbstractSpace.boundary rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#WallSurface_168"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://www.opengis.net/ont/geosparql"/>
+    <owl:imports rdf:resource="http://www.opengis.net/ont/gml"/>
+    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Ontologies/CityGML/3.0/building.ttl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Ontologies/CityGML/3.0/document.ttl"/>
+    <owl:imports rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Ontologies/CityGML/3.0/core.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#69266BO56_0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Ontologies/CityGML/3.0/building#Building"/>
+    <skos:prefLabel>BU_69266BO56_0</skos:prefLabel>
+    <core:AbstractSpace.boundary rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#RoofSurface_165"/>
+    <core:AbstractSpace.boundary rdf:resource="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#WallSurface_165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Datasets/GratteCiel_2018_split_v3#instant_2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    <time:inXSDgYearMonth>12-1936</time:inXSDgYearMonth>
+  </rdf:Description>
+</rdf:RDF>
