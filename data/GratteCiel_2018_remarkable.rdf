@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
    xmlns:core="https://raw.githubusercontent.com/VCityTeam/UD-Graph/master/Ontologies/CityGML/3.0/core#"
    xmlns:doc="https://dataset-dl.liris.cnrs.fr/rdf-owl-urban-data-ontologies/Ontologies/Document/3.0/document#"
